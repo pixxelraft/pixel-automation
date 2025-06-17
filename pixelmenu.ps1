@@ -8,6 +8,10 @@ function Show-Menu {
     Write-Host "5. Social Media"
     Write-Host "6. ChatGPT"
     Write-Host "7. YouTube"
+    Write-Host "8. PornHub"
+    Write-Host "9. WhatsApp"
+    Write-Host "10. Notepad"
+
     Write-Host "0. Exit"
 }
 
@@ -23,6 +27,10 @@ do {
         '5' { & "D:\devtools\socialfeed.ps1" }
         '6' { & "D:\devtools\chatgpt.ps1" }
         '7' { & "D:\devtools\ytb.ps1"}
+        '8' { & "D:\devtools\pornhub.ps1"}
+        '9' { & "D:\devtools\whatsapp.ps1"}
+        '10'{ & "D:\devtools\notepad.ps1"}
+
         '0' { Write-Host "Exiting launcher..." -ForegroundColor Red }
         default { Write-Host "❌ Invalid option. Try again." -ForegroundColor Yellow }
     }
