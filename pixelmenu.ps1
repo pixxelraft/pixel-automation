@@ -16,7 +16,7 @@ function Show-Menu {
 
 do {
     Show-Menu
-    $choice = Read-Host "`nChoose a number (0-6)"
+    $choice = Read-Host "`nChoose a number (0-9)"
 
     switch ($choice) {
         '1' { & "D:\devtools\sanitize.ps1" }
